@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+.success{
+	color:green;
+	font-weight: bold;
+	letter-spacing: 2.5px;
+	text-align: center;
+	font-size: 125%;
+}
+.error{
+	color : red;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 125%;
+}
+#header{
+	text-align: left;
+	color: brown;
+}
+.heading{
+	
+	color: blue;
+	font-size: 125%;
+	letter-spacing: 0.8px;
+	text-align: center
+}
+.content{
+	color: black;
+	font-size: 125%;
+	letter-spacing: 0.8px;
+	text-align: center
+}
+
+
+
+
+th {
+	font-weight: bold;
+	color: #0099cc;
+	font-size: 125%;
+	letter-spacing: 2.5px;
+}
+
+
+h2 {
+	color: slateblue;
+	background-color: whitesmoke;
+	letter-spacing: 3.5px;
+	text-align: center;
+	
+}
+
+h1 {
+	color: brown;
+	background-color: whitesmoke;
+	letter-spacing: 3.5px;
+	text-align: center
+}
+
+h3 {
+	color: blue;
+	background-color: whitesmoke;
+	letter-spacing: 3.5px;
+	text-align: center
+}
+
+
+form {
+	align: center;
+}
+
+body {
+	background-color: #ffffcc;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.1">
+
+	<!-- taglib version is compulsory -->
+	<tlib-version>1.0</tlib-version>
+
+	<!-- short description of your taglib -->
+	<short-name>Quiz List generator for Quiz App's home page
+	</short-name>
+
+	<!-- tag definition begins -->
+	<tag>
+
+		<!-- name by which you will reference your tag in the jsp -->
+		<name>QuizNamesList</name>
+
+		<!-- the helper class of this tag (fully qualified name). For more info, 
+			check the helper class -->
+		<tag-class>com.mindtree.tags.QuizTag
+		</tag-class>
+
+		<!-- scriptless because this tag is not meant to have anything between 
+			it's start and end tags -->
+		<body-content>scriptless</body-content>
+
+		<!-- the attributes your tag needs in order to execute successfully -->
+		<attribute>
+			<!-- name of the attribute in your tag. This value can be referenced as 
+				normal attributes of a class in the helper class provided above -->
+			<name>quizList</name>
+			<!-- rtexprvalue means runtime expression value, by setting it to true 
+				means I'm providing the value for these attributes at runtime using expression 
+				language. For usage check ViewStateCorruptionStory.jsp -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+		<name>successMsg</name>
+		<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		
+	</tag>
+</taglib>

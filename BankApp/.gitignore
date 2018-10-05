@@ -1,0 +1,9 @@
+target
+*.class
+*.jar
+*.war
+target/**
+build
+build/**
+src/**/*.html
+src/**/*.htm
